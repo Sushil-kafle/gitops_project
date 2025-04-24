@@ -14,3 +14,6 @@ def return_ip():
 @app.get("/health")
 def read_health():
     return {"status": "ok"}
+
+
+# test
