@@ -32,7 +32,7 @@ jobs:
       - name: Build and tag Docker image
         run: |
           echo "Building Docker image with tag $IMAGE_NAME"
-          docker build -t $IMAGE_NAME -f Containerfile  app/
+          docker build -t $IMAGE_NAME -f app/Containerfile  app/
 
       - name: Push Docker image to Docker Hub
         run: |
